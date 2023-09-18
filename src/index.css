@@ -1,0 +1,20 @@
+:root {
+  --fontePrincipal: 'Arial', sans-serif;
+  --cor01: #162440;
+  --cor02: #172DA6;
+  --cor03: #D93B58;
+  --cor04: #8EBF45;
+  --cor05: #D8D9D7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: var(--fontePrincipal);
+}
+
+html {
+  background-color: var(--cor02);
+}

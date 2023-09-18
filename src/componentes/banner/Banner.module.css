@@ -1,0 +1,22 @@
+.banner {
+  background-image: url('./banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 880px;
+  padding: 12rem 1.2rem;
+}
+
+.containerBanner {
+  max-width: 900px;
+}
+
+.containerBannerLigacao {
+  display: flex;
+  align-items: center;
+}
+
+.containerBannerLigacao p {
+  padding-left: 1.8rem;
+}
+

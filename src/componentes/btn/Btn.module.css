@@ -1,0 +1,22 @@
+.btn {
+  font-size: 1.2rem;
+  color: var(--cor05);
+  background: var(--cor03);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 60px;
+  border: none;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.337);
+}
+
+.btn:hover {
+  position: relative;
+  transition: 100ms linear;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.btn p {
+  display: inline-block;
+  padding-left: 10px;
+}
