@@ -1,4 +1,4 @@
-import Citacao from 'componentes/Citacao/Citacao';
+import Citacao from 'componentes/citacao/Citacao';
 import styles from './App.css'
 import MenuPrincipal from './componentes/menuPrincipal/MenuPrincipal';
 import Banner from 'componentes/banner/Banner';
