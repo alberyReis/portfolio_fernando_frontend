@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Portifolio Fernando
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao portfólio online do Eletrotécnico Fernando! Este site foi meticulosamente desenvolvido usando React, uma biblioteca JavaScript moderna e eficiente para a construção de interfaces de usuário interativas. Aqui, você encontrará uma apresentação completa das habilidades e experiências do Fernando no campo da eletrotécnica.
 
-## Available Scripts
+O site foi construído utilizando React, garantindo uma experiência de usuário fluida e interativa. A responsividade é uma prioridade, e cada detalhe foi ajustado para garantir uma navegação perfeita em uma variedade de dispositivos, desde telas grandes de desktop até smartphones.
 
-In the project directory, you can run:
+As media queries foram empregadas para garantir que o layout do site se adapte de maneira elegante a diferentes tamanhos de tela. Dessa forma, você pode explorar o portfólio do Fernando com facilidade, independentemente do dispositivo que estiver utilizando.
 
-### `npm start`
+O site incorpora recursos de mensageria para facilitar o contato. Se você tiver dúvidas, feedback ou estiver interessado nos serviços do Fernando, sinta-se à vontade para utilizar a funcionalidade de mensagens. Ele ficará feliz em responder suas perguntas e discutir oportunidades de colaboração.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A interface do site foi projetada para oferecer uma navegação intuitiva. Os projetos e experiências profissionais estão organizados de maneira clara e acessível. Além disso, o design limpo e moderno proporciona uma experiência agradável ao explorar o portfólio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Se você tiver sugestões de melhorias ou identificar oportunidades para aprimorar o site, sinta-se à vontade para contribuir. O código-fonte está disponível no repositório do GitHub, e o Fernando aprecia a colaboração da comunidade para tornar o seu portfólio ainda mais impressionante.
 
-### `npm test`
+Esperamos que este portfólio ofereça uma visão abrangente das habilidades e experiências do Eletrotécnico Fernando. Agradecemos por sua visita!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Atenciosamente,
+Albery Reis
 
-### `npm run build`
+Link:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Portifolio Fernando](https://potifolio-fernando.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Site:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](https://github.com/alberyReis/portifolio_pessoal/blob/master/assets/img/template_portifolio_pessoal.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
