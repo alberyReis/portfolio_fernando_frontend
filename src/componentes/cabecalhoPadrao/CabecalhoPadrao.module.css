@@ -1,0 +1,28 @@
+.cabecalho {
+  background-color: var(--cor05);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.cabecalho_img {
+  width: 20rem;
+}
+
+.cabecalho_lista {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.cabecalho_itemDaLista {
+  color: var(--cor01);
+}
+
+.cabecalho_itemDaLista:hover {
+  color: var(--cor03);
+  transition: 1s;
+}

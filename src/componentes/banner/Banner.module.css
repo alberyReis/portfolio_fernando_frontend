@@ -1,22 +1,66 @@
 .banner {
-  background-image: url('./banner.jpg');
-  background-repeat: no-repeat;
+  background: url('./banner.png') no-repeat left;
   background-size: cover;
-  width: 1440px;
-  height: 880px;
-  padding: 12rem 1.2rem;
-}
-
-.containerBanner {
-  max-width: 900px;
-}
-
-.containerBannerLigacao {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  padding: 10rem 2rem;
 }
 
-.containerBannerLigacao p {
-  padding-left: 1.8rem;
+.banner_container {
+  width: 70%;
 }
 
+.banner_titulo,
+.banner_subtitulo,
+.banner_texto,
+.ligueAgora_container {
+  margin: 1rem 0;
+}
+
+.banner_titulo {
+  color: var(--cor03);
+  text-transform: uppercase;
+}
+
+.banner_subtitulo {
+  color: var(--cor05);
+  font-size: 5rem;
+}
+
+.banner_texto {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.ligueAgora_container {
+  align-items: baseline;
+  display: flex;
+  gap: 2rem;
+}
+
+.ligueAgora_container svg {
+  padding-right: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.ligueAgora_texto {
+  color: var(--cor05);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+
+  .banner_titulo,
+  .banner_subtitulo,
+  .banner_texto,
+  .ligueAgora_container {
+    margin: 0;
+    padding: 0;
+  }
+
+    .banner_subtitulo {
+      color: var(--cor05);
+      font-size: 4rem;
+    }
+}

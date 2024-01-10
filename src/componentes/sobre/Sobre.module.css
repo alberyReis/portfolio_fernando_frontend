@@ -1,0 +1,29 @@
+.sobre_container {
+  background: #ffffff;
+  display: flex;
+  gap: 2rem;
+  padding: 6rem 2rem;
+}
+
+@media (max-width: 1024px) {
+  .sobre_container {
+    flex-direction: column-reverse;
+  }
+
+  .sobre_containerImg {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+    .sobre_containerImg img {
+        width: 425px;
+      }
+}
+
+@media (max-width: 425px) {
+  .sobre_containerImg img {
+      width: 320px;
+    }
+}
+

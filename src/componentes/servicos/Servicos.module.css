@@ -1,0 +1,16 @@
+.servicos_container {
+  background: linear-gradient(90deg, #ffff0f58, #a6954162, #736b4455, #403e322e, #33312932);
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 2rem;
+}
+
+.servicos_subtituloContainer {
+  width: 50%;
+}
+
+.servicos_lista {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}

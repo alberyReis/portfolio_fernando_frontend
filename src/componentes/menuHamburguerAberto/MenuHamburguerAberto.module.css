@@ -1,0 +1,39 @@
+.cabecalho {
+  background-color: var(--cor05);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cabecalho_menuHamburguerAberto {
+  background-color: var(--cor05);
+  color: #ffffff;
+  font-size: 2.2rem;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.cabecalho_lista {
+  align-items: center;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 4rem;
+  margin: auto;
+
+}
+
+.cabecalho_itemDaLista {
+  color: var(--cor01);
+}
+
+.cabecalho_itemDaLista:hover {
+  color: var(--cor03);
+  transition: 1s;
+}

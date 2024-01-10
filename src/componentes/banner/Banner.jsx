@@ -1,33 +1,31 @@
-import styles from './Banner.module.css'
-import Titulo from 'componentes/titulo/Titulo';
-import SubTitulo from 'componentes/subTitulo/SubTitulo';
-import Texto from 'componentes/texto/Texto';
-import Btn from 'componentes/btn/Btn'
-import { BiLinkExternal } from 'react-icons/bi'
+import Botao from "../botao/Botao";
+import styles from "./Banner.module.css";
+import { BsTelephoneForward } from "react-icons/bs";
 
-export default function Banner({ children }) {
+export default function Banner() {
   return (
-    <div className={styles.banner}>
-      <div className={styles.containerBanner}>
-        <Titulo cor='var(--cor03)' tamanhoDaFonte='25px' maiuscula='uppercase' respiro='1.5rem'>
-          Profissional preparado de contrução
-        </Titulo>
-        <SubTitulo cor='var(--cor01)' tamanhoDaFonte='100px' alturaDaLinha='5.5rem'>
-          Tranforme sua visão em realidade
-        </SubTitulo>
-        <Texto tamanhoDaFonte='20px' respiro='2rem'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro at, inventore consectetur quos mollitia modi autem illum itaque aspernatur odit impedit sunt odio molestiae voluptatem ipsa? Molestiae ipsa iure tempora!
-        </Texto>
+    <section className={styles.banner}>
+      <div className={styles.banner_container}>
+        <h1 className={styles.banner_titulo}>Eletricista profissional</h1>
+        <h2 className={styles.banner_subtitulo}>
+          Tranforme sua visão em realidade.
+        </h2>
+        <p className={styles.banner_texto}>
+          Sou um eletricista inovador, conectando a inovação à realidade com
+          energia renovada. Transformo visões em realidade, elevando padrões em
+          sistemas elétricos residenciais e comerciais. Escolha-me para
+          resultados que vão além da eletricidade, incorporando criatividade,
+          eficiência e confiabilidade em cada projeto
+        </p>
+        <div className={styles.ligueAgora_container}>
+          <a href="#a">
+            <Botao>
+              <BsTelephoneForward />
+              Ligue agora
+            </Botao>
+          </a>
+        </div>
       </div>
-      <div className={styles.containerBannerLigacao}>
-        <Btn>
-          <BiLinkExternal />
-          <p>Ligar</p>
-        </Btn>
-        <Texto cor='var(--cor01)' tamanhoDaFonte='1.5rem' pesoDaFonte='bold'>
-          (79) 991750909
-        </Texto>
-      </div>
-    </div>
-  )
+    </section>
+  );
 }
