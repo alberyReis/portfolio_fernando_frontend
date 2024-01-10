@@ -1,10 +1,10 @@
-import styles from './contato.module.css'
-import SubtituloH2 from '../subtituloH2/SubtituloH2'
-import SubtituloH3 from '../subtituloH3/SubtituloH3'
-import Divisor from '../divisor/Divisor'
-import BlocoDeContato from '../blocoDeContato/BlocoDeContato'
+import styles from "./contato.module.css";
+import SubtituloH2 from "../subtituloH2/SubtituloH2";
+import SubtituloH3 from "../subtituloH3/SubtituloH3";
+import Divisor from "../divisor/Divisor";
+import BlocoDeContato from "../blocoDeContato/BlocoDeContato";
 import { FaLocationDot } from "react-icons/fa6";
-import Formulario from '../formulario/Formulario'
+import Formulario from "../formulario/Formulario";
 
 export default function Contato() {
   return (

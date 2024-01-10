@@ -27,22 +27,22 @@
 
 @media (max-width: 1024px) {
   .contato_container {
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   .contato_meiosDeContato {
     width: 94vw;
   }
 
-    .contato_formulario {
-      width: 95vw;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  .contato_formulario {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 95vw;
+  }
 
   .contato_icones {
     margin: auto;

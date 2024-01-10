@@ -1,8 +1,8 @@
-import styles from './Sobre.module.css';
-import SubtituloH2 from '../subtituloH2/SubtituloH2';
-import SubtituloH3 from '../subtituloH3/SubtituloH3';
-import Divisor from '../divisor/Divisor'
-import fotoPerfil from './foto_perfil.png'
+import styles from "./Sobre.module.css";
+import SubtituloH2 from "../subtituloH2/SubtituloH2";
+import SubtituloH3 from "../subtituloH3/SubtituloH3";
+import Divisor from "../divisor/Divisor";
+import fotoPerfil from "./foto_perfil.png";
 
 export default function Sobre() {
   return (

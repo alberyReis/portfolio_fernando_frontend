@@ -1,10 +1,10 @@
 .cabecalho {
+  align-items: center;
   background-color: var(--cor05);
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
 }
 
 .cabecalho_menuHamburguerFechado {

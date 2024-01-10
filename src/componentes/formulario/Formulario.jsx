@@ -18,7 +18,9 @@ export default function Formulario() {
           rows="10"
           placeholder="Mensagem..."
         />
-        <Botao margin="0" alignitems='center'>Enviar Email</Botao>
+        <Botao margin="0" alignitems="center">
+          Enviar Email
+        </Botao>
       </form>
     </div>
   );

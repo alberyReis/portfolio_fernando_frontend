@@ -16,28 +16,25 @@
 }
 
 @media (max-width: 768px) {
-    .sobre_containerImg img {
-        width: 425px;
-      }
+  .sobre_containerImg img {
+    width: 425px;
+  }
 }
 
 @media (max-width: 425px) {
   .sobre_containerImg img {
-      width: 320px;
-    }
+    width: 320px;
+  }
 }
 
 @media (max-width: 375px) {
   .sobre_containerImg img {
-      width: 300px;
-    }
+    width: 300px;
+  }
 }
 
 @media (max-width: 320px) {
   .sobre_containerImg img {
-      width: 260px;
-    }
+    width: 260px;
+  }
 }
-
-
-

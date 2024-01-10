@@ -1,9 +1,9 @@
-import styles from './SubtituloH3.module.css'
+import styles from "./SubtituloH3.module.css";
 
 export default function SubtituloH3({ children, color }) {
-  return(
+  return (
     <h3 className={styles.subtituloH3} style={{ color: color }}>
       {children}
     </h3>
-  )
+  );
 }

@@ -1,7 +1,7 @@
-import Card from '../card/Card'
-import SubtituloH2 from '../subtituloH2/SubtituloH2'
-import SubtituloH3 from '../subtituloH3/SubtituloH3'
-import styles from './Servicos.module.css'
+import Card from "../card/Card";
+import SubtituloH2 from "../subtituloH2/SubtituloH2";
+import SubtituloH3 from "../subtituloH3/SubtituloH3";
+import styles from "./Servicos.module.css";
 
 export default function Servicos() {
   return (

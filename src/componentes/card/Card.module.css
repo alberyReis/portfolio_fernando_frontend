@@ -3,9 +3,9 @@
   height: 200px;
   list-style: none;
   margin: 0.5rem;
-  padding: 2rem;
   min-width: 300px;
   max-width: 370px;
+  padding: 2rem;
 }
 
 .card_subtitulo {

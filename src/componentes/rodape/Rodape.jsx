@@ -1,4 +1,4 @@
-import styles from './Rodape.module.css'
+import styles from "./Rodape.module.css";
 import Divisor from "../divisor/Divisor";
 import { FaFacebook } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
