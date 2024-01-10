@@ -8,8 +8,9 @@
   font-size: 1.4rem;
   font-weight: bold;
   margin: 3rem 0;
-  padding: 0.8rem 2.5rem;
+  padding: 1rem 2rem;
   text-align: center;
+  justify-content: center;
 }
 
 .botao:hover {
@@ -18,4 +19,16 @@
 
 .botao:active {
   box-shadow: 1px 1px 20px #00000056;
+}
+
+@media (max-width: 375px) {
+  .botao {
+    padding: 0.8rem 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .botao {
+    font-size: 1.2rem;
+  }
 }

@@ -10,14 +10,13 @@ export default function Contato() {
   return (
     <section className={styles.contato_container}>
       <div className={styles.contato_meiosDeContato}>
-        <SubtituloH2>nbiknknbrkn</SubtituloH2>
-        <SubtituloH3 color='white'>"NROIREIOREHIOJHRTNOIGNEIRNIOGE"</SubtituloH3>
-        <Divisor color='white' />
+        <SubtituloH2>"Entre em contato conosco"</SubtituloH2>
+        <SubtituloH3 color="white">"Você tem uma pergunta?"</SubtituloH3>
+        <Divisor color="white" />
         <p className={styles.blocoDeContato_paragrafo}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          harum perferendis, pariatur rerum a sit sunt ducimus. Rerum eos maxime
-          quidem beatae. Neque, possimus aspernatur culpa reprehenderit
-          accusamus distinctio velit.
+          Nunc varius ipsum sed ultricies scelerisque. Vivamus posuere venenatis
+          orci et vehicula. Aliqu id rhoncus neque, eu fermentum sem. Maecenas
+          ac.
         </p>
         <div className={styles.contato_icones}>
           <BlocoDeContato

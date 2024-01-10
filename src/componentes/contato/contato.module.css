@@ -7,7 +7,6 @@
 
 .contato_meiosDeContato {
   width: 50%;
-  word-break: break-all;
 }
 
 .blocoDeContato_paragrafo {
@@ -24,7 +23,6 @@
 
 .contato_formulario {
   width: 50%;
-  word-break: break-all;
 }
 
 @media (max-width: 1024px) {

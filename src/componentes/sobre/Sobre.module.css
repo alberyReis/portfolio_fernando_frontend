@@ -27,3 +27,17 @@
     }
 }
 
+@media (max-width: 375px) {
+  .sobre_containerImg img {
+      width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+  .sobre_containerImg img {
+      width: 260px;
+    }
+}
+
+
+

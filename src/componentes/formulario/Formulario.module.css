@@ -21,10 +21,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-align: center;
 }
 
 .formulario input,
-textarea {
+.formulario textarea {
   padding: 10px;
   font-size: 1.2rem;
 }
@@ -34,5 +35,3 @@ textarea {
     width: 100%;
   }
 }
-
-@media (max-width: 768px) {}
