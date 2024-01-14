@@ -50,6 +50,13 @@
 }
 
 @media (max-width: 500px) {
+  .banner {
+    padding: 4rem 2rem;
+  }
+
+  .banner_container {
+    width: 100%;
+  }
 
   .banner_titulo,
   .banner_subtitulo,
