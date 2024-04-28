@@ -14,11 +14,16 @@
 }
 
 .botao:hover {
+  box-shadow: 0px 3px 10px 6px #0000008d;
+  background-color: var(--cor05);
   cursor: pointer;
+  transition: 0.8s;
 }
 
 .botao:active {
-  box-shadow: 1px 1px 20px #00000056;
+  box-shadow: 1px 1px 20px var(--cor03);
+  background-color: var(--cor03);
+  transition: 0s;
 }
 
 @media (max-width: 375px) {

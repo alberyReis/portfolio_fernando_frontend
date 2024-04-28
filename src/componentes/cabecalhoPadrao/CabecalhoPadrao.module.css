@@ -26,3 +26,9 @@
   color: var(--cor03);
   transition: 1s;
 }
+
+.cabecalho_itemDaLista:active {
+  color: var(--cor01);
+  text-shadow: 4px 4px var(--cor03);
+  transition: 0s;
+}
