@@ -3,7 +3,7 @@ import SubtituloH2 from "../subtituloH2/SubtituloH2";
 import SubtituloH3 from "../subtituloH3/SubtituloH3";
 import Divisor from "../divisor/Divisor";
 import BlocoDeContato from "../blocoDeContato/BlocoDeContato";
-import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -22,7 +22,7 @@ export default function Contato() {
         <div className={styles.contato_icones}>
           <BlocoDeContato
             href={"https://www.google.com.br/maps/place/Aracaju,+SE/@-11.0058282,-37.1837944,12z/data=!3m1!4b1!4m6!3m5!1s0x71ab04015be27cd:0x804434fd92ec3b36!8m2!3d-10.9265404!4d-37.0731147!16zL20vMDFoeTg0?hl=pt-PT&entry=ttu"}
-            svgIcon={<IoLocationOutline />}
+            svgIcon={<MdOutlineLocationOn />}
             textoUm="Localização"
             textoDois="Aracaju, SE"
           />
