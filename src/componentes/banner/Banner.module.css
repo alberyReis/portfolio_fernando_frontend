@@ -1,5 +1,5 @@
 .banner {
-  background: url('./banner.jpg') no-repeat right top;
+  background: url('./banner.jpg') no-repeat right;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -68,19 +68,21 @@
 
   .banner_titulo {
     color: var(--cor03);
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem 0;
     text-transform: uppercase;
   }
 
   .banner_subtitulo {
     color: var(--cor05);
-    font-size: 3.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
     padding: 1rem 0;
   }
 
   .banner_texto {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem 0;
+    line-height: 1rem;
   }
 }
