@@ -68,20 +68,20 @@
 
   .banner_titulo {
     color: var(--cor03);
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem 0;
     text-transform: uppercase;
   }
 
   .banner_subtitulo {
     color: var(--cor05);
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
     padding: 1rem 0;
   }
 
   .banner_texto {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem 0;
     line-height: 1rem;
   }
