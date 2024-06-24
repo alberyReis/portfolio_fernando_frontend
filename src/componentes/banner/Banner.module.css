@@ -1,5 +1,5 @@
 .banner {
-  background: url('./banner.png') no-repeat left;
+  background: url('./banner.jpg') no-repeat right top;
   background-size: cover;
   display: flex;
   flex-direction: column;

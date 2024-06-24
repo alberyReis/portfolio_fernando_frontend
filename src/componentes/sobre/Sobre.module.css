@@ -1,15 +1,19 @@
 .sobre_container {
+  align-items: center;
   background: #ffffff;
   display: flex;
   gap: 2rem;
   padding: 6rem 2rem;
 }
 
+.sobre_containerImg img {
+  width: 400px;
+}
+
 .sobre_containerImg img:hover {
   box-shadow: 0px 0px 10px 6px #00000048;
-  width: 525px;
-  transition: 0.4s;
-  
+  transition: 0.2s ease-in-out;
+  transform: scale(1.02);
 }
 
 @media (max-width: 1024px) {
@@ -24,19 +28,19 @@
 
 @media (max-width: 768px) {
   .sobre_containerImg img {
-    width: 425px;
+    width: 320px;
   }
 }
 
 @media (max-width: 425px) {
   .sobre_containerImg img {
-    width: 320px;
+    width: 300px;
   }
 }
 
 @media (max-width: 375px) {
   .sobre_containerImg img {
-    width: 300px;
+    width: 280px;
   }
 }
 

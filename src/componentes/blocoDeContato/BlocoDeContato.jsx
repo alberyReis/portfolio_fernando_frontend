@@ -1,8 +1,8 @@
 import styles from "./BlocoDeContato.module.css";
 
-export default function BlocoDeContato({ svgIcon, textoUm, textoDois }) {
+export default function BlocoDeContato({ href, svgIcon, textoUm, textoDois }) {
   return (
-    <a href="#a">
+    <a href={href} rel="noreferrer" target="_blank">
       <div className={styles.blocoDeContato_container}>
         <div className={styles.blocoDeContato_svg}>{svgIcon}</div>
         <div className={styles.blocoDeContato_containerTexto}>

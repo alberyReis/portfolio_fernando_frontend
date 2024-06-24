@@ -1,5 +1,5 @@
 import styles from "./CabecalhoPadrao.module.css";
-import logo from "./logo_fernando.png";
+import logo from "./logo_fernando_sem_fundo_02.png";
 
 export default function CabecalhoPadrao() {
   return (
@@ -12,16 +12,16 @@ export default function CabecalhoPadrao() {
         />
       </div>
       <ul className={styles.cabecalho_lista}>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#banner" className={styles.cabecalho_itemDaLista}>
           <li>Inicio</li>
         </a>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#sobre" className={styles.cabecalho_itemDaLista}>
           <li>Sobre</li>
         </a>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#servicos" className={styles.cabecalho_itemDaLista}>
           <li>Serviços</li>
         </a>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#contato" className={styles.cabecalho_itemDaLista}>
           <li>Contato</li>
         </a>
       </ul>

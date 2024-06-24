@@ -10,7 +10,9 @@
 }
 
 .servicos_lista {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 360px));
   justify-content: center;
+  align-items: center;
 }

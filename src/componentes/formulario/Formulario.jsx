@@ -6,8 +6,7 @@ export default function Formulario() {
     <div className={styles.formulario}>
       <h4>Entre em contato!!!</h4>
       <p>
-        Nunc varius ipsum sed ultricies scelerisque. Vivamus posuere venenatis
-        orci et vehicula. Aliqu id rhoncus neque, eu fermentum sem. Maecenas ac.
+        Por favor, preencha o formulário e entrarei em contato o mais breve possível para ajudar com suas necessidades.
       </p>
       <form action="">
         <input type="text" name="nome" placeholder="Nome..." />

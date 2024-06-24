@@ -9,16 +9,16 @@ export default function MenuHamburguerAberto() {
         <IoCloseSharp />
       </div>
       <ul className={styles.cabecalho_lista}>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#banner" className={styles.cabecalho_itemDaLista}>
           <li>Inicio</li>
         </a>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#sobre" className={styles.cabecalho_itemDaLista}>
           <li>Sobre</li>
         </a>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#servicos" className={styles.cabecalho_itemDaLista}>
           <li>Serviços</li>
         </a>
-        <a href="#a" className={styles.cabecalho_itemDaLista}>
+        <a href="#contato" className={styles.cabecalho_itemDaLista}>
           <li>Contato</li>
         </a>
       </ul>

@@ -6,7 +6,10 @@
 }
 
 .cabecalho_img {
-  width: 20rem;
+  width: 3rem;
+  background-color: var(--cor03);
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 
 .cabecalho_lista {
