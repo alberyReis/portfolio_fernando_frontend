@@ -39,7 +39,7 @@ export default function Contato() {
             textoDois="(79) 981604997"
           />
           <BlocoDeContato
-            href={"tel: +5579981604997"}
+            href={"https://www.instagram.com/fernandogamabreu/?igsh=MTgzOWJmNGZndWhvMg%3D%3D"}
             svgIcon={<FaInstagram />}
             textoUm="Instagram"
             textoDois="@fernandogamabreu"
