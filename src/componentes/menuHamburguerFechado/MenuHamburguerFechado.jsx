@@ -5,7 +5,7 @@ export default function MenuHamburguerFechado() {
   return (
     <nav className={styles.cabecalho}>
       <div className={styles.cabecalho_menuHamburguerFechado}>
-        <GiHamburgerMenu width="5px"/>
+        <GiHamburgerMenu />
       </div>
     </nav>
   );
