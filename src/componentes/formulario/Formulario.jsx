@@ -23,9 +23,9 @@ export default function Formulario() {
         }
 
         const templateParams = {
-          from_name: name,
-          email: email,
-          message: message
+          name,
+          email,
+          message
         }
 
         emailjs.send("service_ppc269m", "template_i0qbdtz", templateParams, "op5F594hbSzdN-vfW")
