@@ -17,6 +17,10 @@
   width: 100%;
 }
 
+.cabecalho_menuHamburguerAberto svg {
+  width: 2.75rem;
+}
+
 .cabecalho_lista {
   align-items: center;
   display: flex;
