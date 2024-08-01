@@ -16,8 +16,6 @@ export default function Sobre() {
         </p>
         <p>
           Com mais de 12 anos de experiência em manutenção elétrica, tenho um histórico comprovado de atuação em diversos ambientes, como estádios de futebol, hospitais e, mais recentemente, supermercados. Minha expertise abrange uma ampla gama de serviços, desde a manutenção preventiva e corretiva de quadros de comando e circuitos até dispositivos e equipamentos complexos, como geradores e No-breaks.
-
-
         </p>
         <p>
           Meu compromisso com a excelência e a disponibilidade para atender fins de semana me permitem resolver prontamente problemas de mau funcionamento ou paradas de equipamentos, garantindo a continuidade operacional para meus clientes. O registro ativo no CFT reforça minha dedicação à profissão e meu compromisso com a qualidade e segurança em cada projeto que realizo.
