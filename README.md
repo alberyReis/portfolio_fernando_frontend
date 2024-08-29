@@ -19,7 +19,7 @@ Albery Reis
 
 Link:
 
-[Portifolio Fernando](https://potifolio-fernando.vercel.app/)
+[Portifolio Fernando](https://potifoliofernando.vercel.app/)
 
 Site:
 
