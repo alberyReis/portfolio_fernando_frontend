@@ -1,12 +1,11 @@
 import styles from "./CabecalhoPadrao.module.css";
-import logo from "./logo_fernando_sem_fundo_02.png";
 
 export default function CabecalhoPadrao() {
   return (
     <nav className={styles.cabecalho}>
       <div className={styles.cabecalho_containerImg}>
         <img
-          src={logo}
+          src='logo_fernando_sem_fundo_02.png'
           alt="Logomarca de Fernando Eletricista"
           className={styles.cabecalho_img}
         />
